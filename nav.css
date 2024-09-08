@@ -1,0 +1,107 @@
+.nav{
+    height: 15vh;
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    gap:0;
+    background-color: rgb(0, 60, 255);
+
+}
+
+.nav-sec1{
+    width: 20%;
+    height: 100%;
+    color: white;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: Delius Unicase ;
+}
+.nav-sec1 a{
+    font-size: 6vh;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: rgb(255, 255, 255);
+}
+
+.nav-sec2{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    list-style-type: none;
+    font-family: DM Sans;
+}
+.nav-sec2 a{
+    font-size: 3.5vh;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: rgb(255, 255, 255);
+    margin-left: 3vw;
+}
+.nav-item2{
+    color: white;
+}
+
+.nav-item2-img{
+    height: 1vh;
+    width:1vh;
+    margin-bottom: .5vh;
+}
+
+.nav-item2-img:hover{
+    height: 2vh;
+    width:2vh;
+    box-shadow: 1px 1px 1px black ;
+}
+
+.nav-sec3{
+    width: 25%;
+    height: 100%;
+    position: relative;
+    font-family: DM Sans;
+}
+
+.nav-item3{
+    margin-top: 4vh;
+    margin-right: 2vh;
+    width: 80%;
+    padding-top:  2vh;
+    border-radius: 3.5vw;
+    padding-left: 2.5vh ;
+    padding-bottom: 2vh;
+    font-size: large;
+    background-image: url("search.png");
+    background-position: 90% 45%;
+    background-repeat: no-repeat;
+    background-size: 3vh 3vh;
+}
+.nav-sec4{
+    width: 15%;
+    height: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-sec4{
+    align-items: middle;
+}
+
+.nav-item4{
+    justify-self: center;
+    align-content: center;
+}
+
+.nav-item4:hover{
+    box-shadow: 1px 1px 1px black ;
+}

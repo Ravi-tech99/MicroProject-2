@@ -1,0 +1,12 @@
+.icon{
+    background-color: white;
+    align-items: end;
+    height:3vw;
+    width:5vh;
+    padding-top: 3vw;
+    object-position: bottom;
+    padding: .77vw;
+    border-radius: 180px;
+    position: fixed;
+    margin-top: 4vw;
+}
